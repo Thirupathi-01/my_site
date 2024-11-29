@@ -9,5 +9,8 @@
             "src":"/(.*)*",
             "dest":"my_site/wsgi.py"
         }
-    ]
+    ],
+    "env": {
+    "PYTHON_VERSION": "3.12"
+  }
 }
